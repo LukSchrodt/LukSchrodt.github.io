@@ -66,21 +66,3 @@ body{
     width: 100%;
     display: block;
 }
-
-.small-text-butter{
-    float: right;
-}
-
-.small-text-butter-mixed{
-    display: none;
-    float: right;
-}
-
-.image-butter:hover + .small-text-butter{
-    float: right;
-    display: none;
-}
-
-.image-butter:hover + .small-text-butter-mixed{
-    display: block;
-}
