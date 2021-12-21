@@ -24,12 +24,16 @@ body{
     border: red solid 1px;
 } */
 
+
+
 .welcome-text{
     margin-top: 30px;
     background-color: #efefef;
     box-shadow: 5px 10px #0077B6;
 }
 
+
+/* ingredients */
 .image-ingredients{
     width: 100%;
 }
@@ -44,10 +48,7 @@ body{
     display: none;
 }
 
-.small-text-ingredients{
-    float: right;
-}
-
+/* butter */
 .image-butter-mixed{
     width: 100%;
     display: none;
@@ -63,6 +64,76 @@ body{
 }
 
 .image-butter:hover + .image-butter-mixed{
+    width: 100%;
+    display: block;
+}
+
+/* egg */
+.image-egg-mixed{
+    width: 100%;
+    display: none;
+}
+
+.image-egg{
+    width: 100%;
+}
+
+.image-egg:hover{
+    width: 100%;
+    display: none;
+}
+
+.image-egg:hover + .image-egg-mixed{
+    width: 100%;
+    display: block;
+}
+
+/* vanilla sugar */
+.image-vanilla{
+    width: 100%;
+}
+
+/* chocolate */
+.image-chocolate-molten{
+    width: 100%;
+    display: none;
+}
+
+.image-chocolate{
+    width: 100%;
+}
+
+.image-chocolate:hover{
+    width: 100%;
+    display: none;
+}
+
+.image-chocolate:hover + .image-chocolate-molten{
+    width: 100%;
+    display: block;
+}
+
+/* flour */
+.image-flour{
+    width: 100%;
+}
+
+/* walnuts */
+.image-walnuts-crushed{
+    width: 100%;
+    display: none;
+}
+
+.image-walnuts{
+    width: 100%;
+}
+
+.image-walnuts:hover{
+    width: 100%;
+    display: none;
+}
+
+.image-walnuts:hover + .image-walnuts-crushed{
     width: 100%;
     display: block;
 }
