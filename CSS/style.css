@@ -1,0 +1,22 @@
+.navbar{
+    /* background-image: url('../Pictures/brunsli.jpg'); */
+    background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.0), rgb(200, 255, 200, 0.5)),
+    url('../Pictures/brunsli.jpg');
+    background-size: 100%;
+    background-position-y: bottom;
+}
+
+.text-nav{
+    color: black;
+}
+
+/* div{
+    border: red solid 1px;
+} */
+
+.welcome-text{
+    margin-top: 30px;
+    background-color: #e5e5e5;
+    box-shadow: 5px 10px #7DAA7D;
+}
