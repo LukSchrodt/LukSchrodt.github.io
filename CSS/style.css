@@ -185,3 +185,11 @@ body{
 .image-finished{
     width: 100%;
 }
+
+p{
+    font-size: 2vw;
+}
+
+b{
+    font-size: 3vw;
+}
