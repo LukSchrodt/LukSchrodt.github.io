@@ -146,3 +146,32 @@ body{
 .oven:checked{
     content: url('../Pictures/Dishes.jpg');
 }
+
+/* baking */
+.bake{
+    content: url('../Pictures/Baking.jpg');
+    appearance: none;
+    display: block;
+    width: 100%;
+}
+
+.bake:checked{
+    content: url('../Pictures/Baking-timer.jpg');
+}
+
+/* baking */
+.baked{
+    content: url('../Pictures/baked.jpg');
+    appearance: none;
+    display: block;
+    width: 100%;
+}
+
+.baked:checked{
+    content: url('../Pictures/cut.jpg');
+}
+
+/* finished */
+.image-finished{
+    width: 100%;
+}
