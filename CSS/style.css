@@ -42,43 +42,27 @@ body{
 }
 
 /* butter */
-.image-butter-mixed{
-    width: 100%;
-    display: none;
-}
-
-.image-butter{
-    width: 100%;
-}
-
-.image-butter:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-butter:hover + .image-butter-mixed{
-    width: 100%;
+.butter{
+    content: url('../Pictures/butter.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.butter:checked{
+    content: url('../Pictures/butter2.jpg');
 }
 
 /* egg */
-.image-egg-mixed{
-    width: 100%;
-    display: none;
-}
-
-.image-egg{
-    width: 100%;
-}
-
-.image-egg:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-egg:hover + .image-egg-mixed{
-    width: 100%;
+.egg{
+    content: url('../Pictures/sugaregg.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.egg:checked{
+    content: url('../Pictures/mixedegg.jpg');
 }
 
 /* vanilla sugar */
@@ -87,23 +71,15 @@ body{
 }
 
 /* chocolate */
-.image-chocolate-molten{
-    width: 100%;
-    display: none;
-}
-
-.image-chocolate{
-    width: 100%;
-}
-
-.image-chocolate:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-chocolate:hover + .image-chocolate-molten{
-    width: 100%;
+.chocolate{
+    content: url('../Pictures/chocolate.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.chocolate:checked{
+    content: url('../Pictures/moltenchocolate.jpg');
 }
 
 /* flour */
@@ -112,101 +88,61 @@ body{
 }
 
 /* walnuts */
-.image-walnuts-crushed{
-    width: 100%;
-    display: none;
-}
-
-.image-walnuts{
-    width: 100%;
-}
-
-.image-walnuts:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-walnuts:hover + .image-walnuts-crushed{
-    width: 100%;
+.walnuts{
+    content: url('../Pictures/walnuts.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.walnuts:checked{
+    content: url('../Pictures/crushedwalnuts.jpg');
 }
 
 /* chocolate dough */
-.image-chocolatem-mixed{
-    width: 100%;
-    display: none;
-}
-
-.image-chocolatem{
-    width: 100%;
-}
-
-.image-chocolatem:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-chocolatem:hover + .image-chocolatem-mixed{
-    width: 100%;
+.chocolatem{
+    content: url('../Pictures/chocolatedough.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.chocolatem:checked{
+    content: url('../Pictures/mixedchocolatedough.jpg');
 }
 
 /* walnut dough */
-.image-walnutm-mixed{
-    width: 100%;
-    display: none;
-}
-
-.image-walnutm{
-    width: 100%;
-}
-
-.image-walnutm:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-walnutm:hover + .image-walnutm-mixed{
-    width: 100%;
+.walnutm{
+    content: url('../Pictures/walnutdough.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.walnutm:checked{
+    content: url('../Pictures/mixedwalnutdough.jpg');
 }
 
 /* dough */
-.image-dough-formed{
-    width: 100%;
-    display: none;
-}
-
-.image-dough{
-    width: 100%;
-}
-
-.image-dough:hover{
-    width: 100%;
-    display: none;
-}
-
-.image-dough:hover + .image-dough-formed{
-    width: 100%;
+.dough{
+    content: url('../Pictures/putdough.jpg');
+    appearance: none;
     display: block;
-}
-
-/* dough */
-.image-dishes{
-    width: 100%;
-    display: none;
-}
-
-.image-oven{
     width: 100%;
 }
 
-.image-oven:hover{
-    width: 100%;
-    display: none;
+.dough:checked{
+    content: url('../Pictures/formdough.jpg');
 }
 
-.image-oven:hover + .image-dishes{
-    width: 100%;
+/* oven */
+.oven{
+    content: url('../Pictures/Oven.jpg');
+    appearance: none;
     display: block;
+    width: 100%;
+}
+
+.oven:checked{
+    content: url('../Pictures/Dishes.jpg');
 }
